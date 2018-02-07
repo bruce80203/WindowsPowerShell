@@ -1,0 +1,22 @@
+# the following command created the profile gave the location
+New-Item -path $profile -type file -force
+# ie:
+C:\Users\bwoodcock\Documents\WindowsPowerShell\Microsoft.PowerShellISE_profile.ps1
+
+# to tail like linux tail -f:
+get-content <filename> -wait -tail 1
+
+# cat a file:
+type demo.txt # or Get-Content demo.txt
+this is line one
+this is line two...
+
+# grep -v eqivalent:
+> Get-Content demo.txt | sls -n three
+this is line one
+this is line two
+this is line four
+
+# wc -l:
+> (Get-Content demo.txt | sls -n three).count
+3
