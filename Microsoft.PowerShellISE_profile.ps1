@@ -1,1 +1,1 @@
-. C:\Users\bwoodcock\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+. C:\Users\bruce\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
